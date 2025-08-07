@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #121212;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #00e676;
+}
+
+.balance {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.money {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.plus {
+  color: #00e676;
+}
+
+.minus {
+  color: #ff5252;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.list li {
+  background: #292929;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px 0;
+  border-left: 5px solid;
+}
+
+.list li.plus {
+  border-color: #00e676;
+}
+
+.list li.minus {
+  border-color: #ff5252;
+}
+
+form input, form button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+form input {
+  background: #333;
+  color: #fff;
+}
+
+form button {
+  background: #00e676;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
